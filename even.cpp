@@ -5,10 +5,8 @@ int main(){
 	int a;
 	cout<<"Enter a number : ";
 	cin>>a;
-	if(a % 2 == 0){
-		cout<<"Number is Even\n";
-	}else{	
-		cout<<"Number is Odd\n";
-	}
+	a < 0 ? cout<<"Number is neagtive\n":cout<<"";
+	
+	a % 2 == 0 ? cout<<"Number is Even\n" : cout<<"Number is Odd\n";
 	
 }
